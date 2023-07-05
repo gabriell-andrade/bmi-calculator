@@ -1,0 +1,58 @@
+:root {
+    --main-color: #1C1C1C;
+    --secondary-color: #D4D4D2;
+    --tertiary--color: #FF9500;
+    --quaternary--color: white;
+}
+
+h1, h2 {
+    color: var(--secondary-color);
+}
+
+h1 {
+    margin-block-start: 0em;
+    color: var(--quaternary--color);
+}
+
+.input_area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    height: 1.5em;
+}
+
+textarea {
+    width: 100%;
+    margin: 2em;
+}
+
+.container {
+    background-color: var(--main-color);
+    display: inline-flex;
+    padding: 2em;
+    border-radius: 2em;
+    flex-direction: column;
+    align-items: center;
+    width: 20em;
+}
+
+.area {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 3em;
+    width: 100%;
+    background-color: var(--tertiary--color);
+    border: none;
+    color: var(--quaternary--color);
+}
+
+button:hover {
+    cursor: pointer;
+}
